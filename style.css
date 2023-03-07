@@ -3,15 +3,13 @@
 /* font-family: 'Playfair Display', serif; */
 /* font-family: 'Space Grotesk', sans-serif; */
 
-html{
-    height: 100%;
-
-}    
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(235, 233, 230);
-
+html {
+  height: 100%;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(235, 233, 230);
 }
 .parent {
   display: grid;
@@ -22,25 +20,37 @@ body{
   height: 100%;
   width: 100%;
   margin-top: 40px;
-  font-family: "Space Grotesk", sans-serif;;
+  font-family: "Space Grotesk", sans-serif;
 }
 
-.div1, .div2, .div3, .div4, .div5, .div6, .div7{
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
 }
 
 .div1 {
   grid-area: 1 / 1 / 4 / 2;
   margin-left: 40px;
-  border-right: .5px solid black;
-  font-family: 'EB Garamond', serif;
-
+  border-right: 0.5px solid black;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+h3,
+.div1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 1.5vw;
 }
 
-.title{
-    font-size: 9vw;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    margin: 0;
+.title {
+  font-size: 9vw;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  margin: 0;
 }
 
 .div2 {
@@ -48,92 +58,113 @@ body{
   position: relative;
 }
 
-.pinned{
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    justify-content: space-between;
-    width: 100%;    
+.pinned {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  width: 100%;
 }
-.issue, .date-of-issue{
-    margin: 0
+.issue,
+.date-of-issue {
+  margin: 0;
 }
 .div3 {
   grid-area: 2 / 2 / 4 / 3;
-  border-top: .5px solid black;
-  border-right: .5px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  border-top: 0.5px solid black;
+  border-right: 0.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-.issue-num{
-    font-size: 60px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 400px;
-
+.issue-num {
+  font-size: 4.5vw;
+  font-weight: 400px;
+  font-family: "Playfair Display", serif;
 }
 .div4 {
   grid-area: 2 / 3 / 3 / 4;
-  border-top: .5px solid black;
-  border-bottom: .5px solid black;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
 }
-img{
-    margin-top: 20px;
+img {
+  margin-top: 20px;
 }
-.article-title{
-    font-family: 'EB Garamond', serif;
-    margin: 0;
-    font-size: 32px;
-    font-weight: 100;
-
+.article-title {
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 100;
 }
-.article-info{
-    display: flex;
-    justify-content: space-between;
+.article-info {
+  display: flex;
+  justify-content: space-between;
 }
-.p-body{
-    font-family: 'Playfair Display', serif;
+.p-body {
+  font-family: "Playfair Display", serif;
 }
 .div5 {
   grid-area: 3 / 3 / 4 / 4;
 }
+.read-more{
+    display: flex;
+    justify-content: end;
+}
 .div6 {
   grid-area: 1 / 4 / 2 / 5;
   margin-right: 40px;
-    border-left: .5px solid black;
-    padding-left: 20px;
-    justify-content: space-between;
-    position: relative;
+  border-left: 0.5px solid black;
+  padding-left: 20px;
+  justify-content: space-between;
+  position: relative;
 }
-.headline{
-    color: white;
-    background-color: black;
-    margin-left: -20px;
-    margin-top: 0px;
-    padding: 10px;
-    font-family: 'EB Garamond', serif;
-
+.headline {
+  color: white;
+  background-color: black;
+  margin-left: -20px;
+  margin-top: 0px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
 }
-.project-direction{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+.project-direction {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
-.see-all{
-    padding-right: 20px;
+.see-all {
+  padding-right: 20px;
 }
-.featured, .see-all{
-    margin: 0
+.featured,
+.see-all {
+  margin: 0;
+}
+.featured {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
 }
 .div7 {
   grid-area: 2 / 4 / 4 / 5;
   margin-right: 40px;
-  border-left: .5px solid black;
-    padding: 20px;
+  border-left: 0.5px solid black;
+  padding: 20px;
 }
-.col-right{
-    border-left: .5px solid black;
+.col-right {
+  border-left: 0.5px solid black;
+}
+.project-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-title{
+    margin-top: 0;
+}
+.project-content{
+    font-family: 'EB Garamond', serif;
+
 }
