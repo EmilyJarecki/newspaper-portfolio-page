@@ -1,9 +1,17 @@
+/* font-family: 'EB Garamond', serif; */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Space Grotesk', sans-serif; */
+
 html{
     height: 100%;
-}
+
+}    
 body{
     height: 100vh;
     width: 100vw;
+    background-color: rgb(235, 233, 230);
+
 }
 .parent {
   display: grid;
@@ -14,6 +22,7 @@ body{
   height: 100%;
   width: 100%;
   margin-top: 40px;
+  font-family: "Space Grotesk", sans-serif;;
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6, .div7{
@@ -23,7 +32,17 @@ body{
   grid-area: 1 / 1 / 4 / 2;
   margin-left: 40px;
   border-right: .5px solid black;
+  font-family: 'EB Garamond', serif;
+
 }
+
+.title{
+    font-size: 9vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
 .div2 {
   grid-area: 1 / 2 / 2 / 4;
   position: relative;
@@ -49,15 +68,31 @@ body{
 }
 .issue-num{
     font-size: 60px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400px;
+
 }
 .div4 {
   grid-area: 2 / 3 / 3 / 4;
   border-top: .5px solid black;
   border-bottom: .5px solid black;
 }
+img{
+    margin-top: 20px;
+}
+.article-title{
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 100;
+
+}
 .article-info{
     display: flex;
     justify-content: space-between;
+}
+.p-body{
+    font-family: 'Playfair Display', serif;
 }
 .div5 {
   grid-area: 3 / 3 / 4 / 4;
@@ -76,6 +111,8 @@ body{
     margin-left: -20px;
     margin-top: 0px;
     padding: 10px;
+    font-family: 'EB Garamond', serif;
+
 }
 .project-direction{
     position: relative;
