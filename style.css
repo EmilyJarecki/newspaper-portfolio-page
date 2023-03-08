@@ -112,14 +112,10 @@ a{
     width: 4px;
   }
 
-  *::-webkit-scrollbar-track {
-    background: black;
-  }
+
 
   *::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
     border-radius: 1px;
-    border: 5px solid rgb(235, 233, 230);
   }
 img {
   margin-top: 20px;
@@ -139,7 +135,7 @@ img {
   margin-top: 5px;
 }
 .article-img{
-  height: 150px;
+  height: 15vw;
   object-fit: cover;
   display: block;
 }
