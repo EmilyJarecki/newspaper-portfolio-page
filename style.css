@@ -135,12 +135,13 @@ img {
   font-size: 14px;
   font-family: "Playfair Display", serif;
 }
-.header{
-  /* display: flex;
-  justify-content: space-between; */
-}
 .job{
   margin-top: 5px;
+}
+.article-img{
+  height: 150px;
+  object-fit: cover;
+  display: block;
 }
 .position{
   margin: 15px 0 0 0;
