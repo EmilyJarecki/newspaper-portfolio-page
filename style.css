@@ -5,12 +5,20 @@
 
 html {
   height: 100%;
+  width: auto !important;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  position:relative;
 }
 body {
   height: 100vh;
   width: 100vw;
   background-color: rgb(235, 233, 230);
   overflow: hidden;
+  width: auto !important;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  position:relative;
 }
 .parent {
   display: grid;
@@ -22,6 +30,7 @@ body {
   width: 100%;
   margin-top: 40px;
   font-family: "Space Grotesk", sans-serif;
+
 }
 
 .div1 {
